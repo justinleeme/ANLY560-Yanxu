@@ -84,8 +84,6 @@ def parse(source,destination,date):
 		
 		except ValueError:
 			print ("Rerying...")
-			
-		return {"error":"failed to process the page",}
 
 if __name__=="__main__":
 	argparser = argparse.ArgumentParser()
